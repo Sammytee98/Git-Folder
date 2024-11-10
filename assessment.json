@@ -1,13 +1,28 @@
-{
-    "name": "simon-game-challenge",
-    "version": "1.0.0",
-    "description": "Simon Game Challenge",
-    "main": "game.js",
-    "scripts": {
-        "start": "node app.js"
+[
+    {
+        "name": "simon-game-challenge",
+        "version": "1.0.0",
+        "description": "Simon Game Challenge",
+        "main": "game.js",
+        "scripts": {
+            "start": "node app.js"
+        },
+        "dependencies": {
+            "express": "^4.17.1",
+            "ejs": "^3.1.6"
+        }
     },
-    "dependencies": {
-        "express": "^4.17.1",
-        "ejs": "^3.1.6"
+    {
+        "name": "simon-game-challenge-starting-files",
+        "version": "1.0.0",
+        "description": "Starting files for the Simon Game Challenge",
+        "main": "game.js",
+        "scripts": {
+            "start": "node app.js"
+        },
+        "dependencies": {
+            "express": "^4.17.1",
+            "ejs": "^3.1.6"
+        }
     }
-}
+]
